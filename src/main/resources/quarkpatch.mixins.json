@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.teampotato.quarkpatch.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "quarkpatch.refmap.json",
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "mixins": [
+        "MixinContributorRewardHandler",
+        "MixinImprovedTooltipsModule",
+        "MixinQuarkModule"
+    ]
+  }
